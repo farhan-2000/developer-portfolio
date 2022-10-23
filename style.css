@@ -13,6 +13,7 @@ h1 {
 
 section {
     display: flex;
+    margin-bottom: 150px;
 }
 
 .half-width {
@@ -21,7 +22,7 @@ section {
 }
 
 .half-width img {
-    width: 90%;
+    width: 80%;
 }
 
 .link-button {
@@ -29,11 +30,26 @@ section {
     background-image: linear-gradient(orange, coral);
     color: aliceblue;
     font-weight: 700;
-    padding: 10px 40px;
+    padding: 10px 50px;
     border-radius: 5px;
 }
 
 .top-banner {
     background-image: url(img/top-banner.png);
     background-repeat: no-repeat;
+}
+
+.github-link {
+    text-decoration: none;
+    background-image: linear-gradient(tomato, red);
+    color: whitesmoke;
+    font-weight: 700;
+    border-radius: 5px;
+    padding: 10px 40px;
+}
+
+.dream-big {
+    background-image: url(img/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: 1250px;
 }

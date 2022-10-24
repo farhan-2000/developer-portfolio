@@ -7,6 +7,10 @@ h1 {
     font-size: 50px;
 }
 
+p {
+    text-align: justify;
+}
+
 .bg-color-coral {
     color: coral;
 }
@@ -19,6 +23,7 @@ section {
 .half-width {
     width: 50%;
     padding-left: 7%;
+    padding-right: 5%;
 }
 
 .half-width img {
@@ -51,5 +56,6 @@ section {
 .dream-big {
     background-image: url(img/dream-bg.png);
     background-repeat: no-repeat;
-    background-position: 1250px;
+    background-position-x: right;
+    background-position-y: bottom;
 }

@@ -79,3 +79,10 @@ p {
     border-left: 10px solid coral;
     box-shadow: 10px 10px 40px gray;
 }
+
+footer {
+    color: gray;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}

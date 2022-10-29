@@ -80,9 +80,18 @@ p {
     box-shadow: 10px 10px 40px gray;
 }
 
+#web-experience {
+    border-left: 10px solid blue;
+    border-image: linear-gradient(blue, cyan) 50;
+}
+
+#full-stack-experience {
+    border-left: 10px solid;
+    border-image: linear-gradient(red, tomato) 70;
+}
+
 footer {
     color: gray;
-    display: flex;
-    justify-content: center;
+    text-align: center;
     margin-bottom: 10px;
 }
